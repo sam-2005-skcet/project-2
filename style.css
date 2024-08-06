@@ -1,0 +1,42 @@
+
+    body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+.game {
+    margin-top: 20px;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.choice {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #000;
+    background-color: #fff;
+    transition: background-color 0.3s;
+}
+
+.choice:hover {
+    background-color: #ddd;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+}
